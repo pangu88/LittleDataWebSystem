@@ -1,0 +1,14 @@
+{
+	"/login": "./servlets/login.js",
+	"/home": "./servlets/home.js",
+	"/logout": "./servlets/logout.js",
+	"/rainbowloan": "./servlets/rainbowloan/rainbowloan.js",
+	"/rainbowloan_upload": "./servlets/rainbowloan/rainbowloan_upload.js",
+	"/rainbowloan_result": "./servlets/rainbowloan/rainbowloan_result.js",
+	"/whitetealoan": "./servlets/whitetealoan/whitetealoan.js",
+	"/whitetealoan_upload": "./servlets/whitetealoan/whitetealoan_upload.js",
+	"/whitetealoan_result": "./servlets/whitetealoan/whitetealoan_result.js",
+	"/villeggiaturaloan": "./servlets/villeggiaturaloan/villeggiaturaloan.js",
+	"/villeggiaturaloan_upload": "./servlets/villeggiaturaloan/villeggiaturaloan_upload.js",
+	"/villeggiaturaloan_result": "./servlets/villeggiaturaloan/villeggiaturaloan_result.js"
+}

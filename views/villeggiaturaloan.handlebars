@@ -1,0 +1,25 @@
+<div id="apicontent">
+    <h3>两山乡居贷取数</h3>
+    <ul>
+        <li>点击下载
+            <a href="/resources/两山乡居贷取数模板.xlsx">两山乡居贷取数模板</a>
+        </li>
+    </ul>
+    <br />
+    <div>
+        <form action="villeggiaturaloan_upload" method="post" enctype="multipart/form-data">
+            日期：<input type="text" name="date" value="{{{date}}}" />
+            （该数值往往为当前日期的前一天，如果你最终取得的数据中有缺失，
+            请将此数值再提前一天，然后点击下方的“上传文件”进行处理）。<br />
+            举个栗子：比如，今天是2018年2月23日，然后我们数据仓库里面的数据是
+            更新到2月22号的，所以上方就会显示“20180222”，但是如果你按照“20180222”没有取得
+            所需的数据（很多项为空），那你可以尝试将日期再提前一天到“20180221”试试：）
+            <br />
+            <input type="file" name="files" /><br />
+            <input type="submit" value="上传文件" />
+        </form>
+    </div>
+    <div>
+        <span style="color:brown">{{{tips}}}</span>    
+    </div>
+</div>
