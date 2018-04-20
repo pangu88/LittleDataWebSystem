@@ -26,7 +26,7 @@ resList = []
 
 flag = True # DB2取数成功标识
 
-connStr = "DATABASE=ANDWDB;HOSTNAME=154.84.100.115;PORT=60000;PROTOCOL=TCPIP;UID=andw;PWD=andw"
+connStr = "DATABASE=ANDWDB;HOSTNAME=154.84.100.115;PORT=50000;PROTOCOL=TCPIP;UID=admin;PWD=admin"
 conn = None
 
 try:
